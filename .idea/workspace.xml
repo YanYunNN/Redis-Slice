@@ -10,31 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3fdb36-79f8-40ac-b380-94f9ae18e1e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/redis-like/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/RedisSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/config/CacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/config/MyKeyGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/controller/SessionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/entity/RestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/resources/application-win.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-like/src/test/java/com/yanyun/redis/RedisSingleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="db3fdb36-79f8-40ac-b380-94f9ae18e1e2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593517762490</updated>
-      <workItem from="1593517764413" duration="28000" />
+      <workItem from="1593517764413" duration="350000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
