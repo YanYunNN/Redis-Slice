@@ -10,10 +10,6 @@ import java.time.ZoneOffset;
 
 /**
  * LocalDateTime转化器
- *
- * @author hetiantian
- * @version 1.0
- * @Date 2019/10/08 14:23
  */
 public class LocalDateTimeConverter extends JsonSerializer<LocalDateTime> {
 

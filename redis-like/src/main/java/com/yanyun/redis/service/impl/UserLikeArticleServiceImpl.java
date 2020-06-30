@@ -3,6 +3,7 @@ package com.yanyun.redis.service.impl;
 import com.yanyun.redis.dao.UserLikeArticleMapper;
 import com.yanyun.redis.model.UserLikeArticle;
 import com.yanyun.redis.service.UserLikeArticleService;
+import com.yanyun.redis.service.base.BaseServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**

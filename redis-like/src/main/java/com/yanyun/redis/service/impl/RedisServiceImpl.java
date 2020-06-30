@@ -1,6 +1,6 @@
 package com.yanyun.redis.service.impl;
 
-import com.yanyun.redis.enums.ErrorCodeEnum;
+import com.yanyun.redis.exception.ErrorCodeEnum;
 import com.yanyun.redis.exception.CustomException;
 import com.yanyun.redis.service.RedisService;
 import com.yanyun.redis.utils.FastjsonUtil;

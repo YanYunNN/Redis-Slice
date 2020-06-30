@@ -15,7 +15,7 @@ public class MpGenerator {
     /**
      * 包名
      */
-    private static final String PACKAGE_NAME = "com.h2t.study";
+    private static final String PACKAGE_NAME = "com.yanyun.redis";
 
     /**
      * 代码生成路径
@@ -25,7 +25,7 @@ public class MpGenerator {
     /**
      * 代码注释作者
      */
-    private static final String AUTHOR = "hetiantian";
+    private static final String AUTHOR = "yanyun";
 
     private static final String DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
     private static final String HOST = "localhost";

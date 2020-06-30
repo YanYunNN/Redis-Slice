@@ -1,6 +1,5 @@
 package com.yanyun.redis.exception;
 
-import com.yanyun.redis.enums.ErrorCodeEnum;
 import lombok.Data;
 
 /**

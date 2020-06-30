@@ -1,4 +1,4 @@
-package com.yanyun.redis.service.impl;
+package com.yanyun.redis.service.base;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;

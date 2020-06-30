@@ -1,4 +1,4 @@
-package com.yanyun.redis.enums;
+package com.yanyun.redis.exception;
 
 /**
  * 错误代码枚举类
