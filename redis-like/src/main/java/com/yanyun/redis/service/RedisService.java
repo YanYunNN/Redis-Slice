@@ -1,97 +1,51 @@
 package com.yanyun.redis.service;
 
-import org.springframework.data.redis.core.HashOperations;
-import org.springframework.data.redis.core.ListOperations;
-import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.data.redis.core.ValueOperations;
-import org.springframework.stereotype.Service;
-
-import javax.annotation.Resource;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 /**
- * RedisService
- * @author shengwu ni
- * @date 2018/08/13 17:54
+ * redis服务接口
+
  */
-@Service
-public class RedisService {
-
-    @Resource
-    private StringRedisTemplate stringRedisTemplate;
-
-
+public interface RedisService {
     /**
-     * set redis: string类型
-     * @param key   key
-     * @param value value
+     * 用户点赞某篇文章
+     *
+     * @param likedUserId 被点赞用户ID
+     * @param likedPostId 点赞用户
+     * @param articleId   文章ID
      */
-    public void setString(String key, String value) {
-        ValueOperations<String, String> valueOperations = stringRedisTemplate.opsForValue();
-        valueOperations.set(key, value);
-    }
+    void likeArticle(Long articleId, Long likedUserId, Long likedPostId);
 
     /**
-     * get redis: string类型
-     * @param key key
+     * 取消点赞
+     *
+     * @param likedUserId 被点赞用户ID
+     * @param likedPostId 点赞用户
+     * @param articleId   文章ID
+     */
+    void unlikeArticle(Long articleId, Long likedUserId, Long likedPostId);
+
+    /**
+     * 统计某篇文章总点赞数
+     *
+     * @param articleId
      * @return
      */
-    public String getString(String key) {
-        return stringRedisTemplate.opsForValue().get(key);
-    }
+    Long countArticleLike(Long articleId);
 
     /**
-     * set redis: hash类型
-     * @param key      key
-     * @param filedKey filedkey
-     * @param value    value
-     */
-    public void setHash(String key, String filedKey, String value) {
-        HashOperations<String, Object, Object> hashOperations = stringRedisTemplate.opsForHash();
-        hashOperations.put(key, filedKey, value);
-    }
-
-    /**
-     * get redis: hash类型
-     * @param key      key
-     * @param filedkey filedkey
+     * 统计用户总的文章点赞数
+     *
+     * @param likedUserId
      * @return
      */
-    public String getHash(String key, String filedkey) {
-        return (String) stringRedisTemplate.opsForHash().get(key, filedkey);
-    }
+    Long countUserLike(Long likedUserId);
 
     /**
-     * set redis:list类型
-     * @param key   key
-     * @param value value
+     * 获取用户点赞的文章
+     *
+     * @param likedPostId 点赞用户ID
      * @return
      */
-    public long setList(String key, String value) {
-        ListOperations<String, String> listOperations = stringRedisTemplate.opsForList();
-        return listOperations.leftPush(key, value);
-    }
-
-    /**
-     * get redis:list类型
-     * @param key   key
-     * @param start start
-     * @param end   end
-     * @return
-     */
-    public List<String> getList(String key, long start, long end) {
-        return stringRedisTemplate.opsForList().range(key, start, end);
-    }
-
-    /**
-     * 设置key失效时间
-     * @param key     key
-     * @param timeout timeout
-     * @return
-     */
-    public boolean setTimeOut(String key, long timeout,TimeUnit timeUnit) {
-        return stringRedisTemplate.expire(key, timeout, timeUnit);
-    }
-
+    List<Long> getUserLikeArticleIds(Long likedPostId);
 }

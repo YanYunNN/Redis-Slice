@@ -1,4 +1,4 @@
-package com.yanyun.redis.entity;
+package com.yanyun.redis.model;
 
 import lombok.Data;
 

@@ -6,8 +6,8 @@ import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
 @EnableCaching
-public class RedisSingle {
+public class RedisLike {
     public static void main(String[] args) {
-        SpringApplication.run(RedisSingle.class, args);
+        SpringApplication.run(RedisLike.class, args);
     }
 }

@@ -10,7 +10,63 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3fdb36-79f8-40ac-b380-94f9ae18e1e2" name="Default Changelist" comment="" />
+    <list default="true" id="db3fdb36-79f8-40ac-b380-94f9ae18e1e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/config/MpGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/dao/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/dao/UserLikeArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/enums/ErrorCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/model/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/model/BasePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/model/UserLikeArticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/model/converter/LocalDateTimeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/UserLikeArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/base/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/impl/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/impl/UserLikeArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/utils/FastjsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/utils/ScheduleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/main/resources/article-like.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-like/src/test/java/com/yanyun/redis/RedisLikeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-like/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/RedisSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/RedisLike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/entity/RestResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/model/RestResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/RedisUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/resources/application-win.yml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-like/src/main/resources/application-win.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-like/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-like/src/test/java/com/yanyun/redis/RedisSingleTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,17 +91,61 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/redis-like" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/redis-like/src/main/java/com/yanyun/redis/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/redis-like/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis\config" />
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yanyun.redis.utils" />
+      <recent name="com.yanyun.redis.service.base" />
+      <recent name="com.yanyun.redis.model" />
+      <recent name="com.yanyun.redis.config" />
+      <recent name="com.yanyun.redis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yanyun.redis.model.converter" />
+      <recent name="com.yanyun.redis.model" />
+      <recent name="com.yanyun.redis.service" />
+      <recent name="com.yanyun.redis.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\resources" />
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis\service" />
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\test\java\com\yanyun\redis\dao" />
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RedisLike">
+    <configuration name="MyRedis" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-cluster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yanyun.redis.MyRedis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisLike" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-like" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yanyun.redis.RedisLike" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisSingle" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="redis-single" />
       <extension name="coverage">
@@ -82,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593517762490</updated>
-      <workItem from="1593517764413" duration="350000" />
+      <workItem from="1593517764413" duration="3977000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -112,6 +212,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1593520585787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593520585787" />
+    <state x="531" y="279" width="426" height="263" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593520704767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="531" y="279" width="426" height="263" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593520704767" />
+    <state x="573" y="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1593519979716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="573" y="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593519979716" />
+    <state x="507" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593521324838">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521324838" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593521128422">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521128422" />
     <state x="371" y="0" key="CommitChangelistDialog2" timestamp="1593516393455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -128,54 +248,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="452" y="118" key="Github.UntrackedFilesDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593516678111" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1593521727601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727601" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1593521727600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727600" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1593521727600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727600" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1593521727601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727601" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593521727342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727342" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593521727341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727341" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593521727341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727341" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593521727341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727341" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1593521727342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727342" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1593521727342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727342" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1593521727342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
-    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1593517756458">
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727342" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1593521727342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517756458" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521727342" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1593519401901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593519401901" />
     <state x="474" y="118" key="NewModule_or_Project.wizard" timestamp="1593517782561">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -184,5 +308,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593517792361" />
+    <state x="591" y="190" key="chooseDestDirectoryDialog" timestamp="1593520003590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="591" y="190" key="chooseDestDirectoryDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593520003590" />
+    <state x="470" y="152" width="596" height="520" key="find.popup" timestamp="1593521666568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="152" width="596" height="520" key="find.popup/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521666568" />
   </component>
 </project>
