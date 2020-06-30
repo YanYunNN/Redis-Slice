@@ -1,0 +1,12 @@
+spring:
+  #redis相关配置
+  redis:
+    cluster:
+      ports:
+        - 6379
+      poolConfig:
+        max-idle: 500
+        min-idle: 50
+        max-active: 1000
+        max-wait: 2000
+      host: 127.0.0.1
