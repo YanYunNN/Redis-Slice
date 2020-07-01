@@ -14,11 +14,13 @@ public enum ErrorCodeEnum {
     Unlike_article_not_exist("0005", "该文章未被当前用户点赞"),
     Like_article_is_exist("0006", "该文章已被当前用户点赞，重复点赞");
 
+    private String errorCode;
+    private String errorMsg;
+
     ErrorCodeEnum(String errorCode, String errorMsg) {
         this.errorCode = errorCode;
         this.errorMsg = errorMsg;
     }
-
 
     public String getErrorCode() {
         return errorCode;
@@ -36,13 +38,4 @@ public enum ErrorCodeEnum {
         this.errorMsg = errorMsg;
     }
 
-    /**
-     * 错误码
-     */
-    private String errorCode;
-
-    /**
-     * 错误信息
-     */
-    private String errorMsg;
 }

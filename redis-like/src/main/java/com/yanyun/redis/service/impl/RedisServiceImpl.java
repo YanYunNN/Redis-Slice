@@ -88,7 +88,7 @@ public class RedisServiceImpl implements RedisService {
             Set<Long> likePostIdSet = articleLikedResult == null ? new HashSet<>() : FastjsonUtil.deserializeToSet(articleLikedResult, Long.class);
             likePostIdSet.add(likedPostId);
             redisTemplate.opsForHash().put(ARTICLE_LIKED_USER_KEY, String.valueOf(articleId), FastjsonUtil.serialize(likePostIdSet));
-            logger.info("取消点赞数据存入redis结束，articleId:{}，likedUserId:{}，likedPostId:{}", articleId, likedUserId, likedPostId);
+            logger.info("点赞数据存入redis结束，articleId:{}，likedUserId:{}，likedPostId:{}", articleId, likedUserId, likedPostId);
         }
     }
 
