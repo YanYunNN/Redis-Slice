@@ -1,6 +1,6 @@
 package com.yanyun.redis.contoller;
 
-import com.example.springboot_redis.domain.User;
+import com.yanyun.redis.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;

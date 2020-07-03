@@ -1,15 +1,11 @@
 package com.yanyun.redis.contoller;
 
-import com.example.springboot_redis.redis.DistributedRedisLock;
-import com.sun.org.apache.bcel.internal.generic.NEW;
+import com.yanyun.redis.redis.DistributedRedisLock;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
 
 /**
  * 分布式Redis锁测试controller

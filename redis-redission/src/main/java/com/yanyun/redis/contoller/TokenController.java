@@ -1,7 +1,7 @@
 package com.yanyun.redis.contoller;
 
-import com.example.springboot_redis.token.ActionToken;
-import com.example.springboot_redis.token.TokenVerify;
+import com.yanyun.redis.token.ActionToken;
+import com.yanyun.redis.token.TokenVerify;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,6 +1,6 @@
 package com.yanyun.redis.contoller;
 
-import com.example.springboot_redis.redis.DistributedRedisLock;
+import com.yanyun.redis.redis.DistributedRedisLock;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

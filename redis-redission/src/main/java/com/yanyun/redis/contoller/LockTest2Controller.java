@@ -1,6 +1,6 @@
 package com.yanyun.redis.contoller;
 
-import com.example.springboot_redis.redis.DistributedRedisLock;
+import com.yanyun.redis.redis.DistributedRedisLock;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,7 +34,7 @@ public class LockTest2Controller {
      * "模拟并发测试加锁和不加锁"
      */
     @GetMapping("/test")
-    public void lock() {
+    public void main() {
         // 计数器
         final CountDownLatch countDownLatch = new CountDownLatch(1);
         for (int i = 0; i < threadNum; i++) {
