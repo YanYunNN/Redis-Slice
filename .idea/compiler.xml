@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redis-single" />
+        <module name="redis-redission" />
+        <module name="springboot2.x_redis" />
         <module name="redis-cluster" />
         <module name="redis-like" />
       </profile>
@@ -16,14 +18,18 @@
       <module name="redis-cluster" target="1.8" />
       <module name="redis-cluster1" target="1.8" />
       <module name="redis-like" target="1.8" />
+      <module name="redis-redission" target="1.8" />
       <module name="redis-single" target="1.8" />
+      <module name="springboot2.x_redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="redis-cluster" options="-parameters" />
       <module name="redis-like" options="-parameters" />
+      <module name="redis-redission" options="-parameters" />
       <module name="redis-single" options="-parameters" />
+      <module name="springboot2.x_redis" options="-parameters" />
     </option>
   </component>
 </project>

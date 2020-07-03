@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/redis-single/pom.xml" />
         <option value="$PROJECT_DIR$/Redis-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/redis-like/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-redission/pom.xml" />
       </list>
     </option>
   </component>
