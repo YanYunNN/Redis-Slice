@@ -1,0 +1,32 @@
+GET http://localhost:8070/lock/test
+
+###
+
+GET http://localhost:8070/lock/testLock
+
+###
+
+GET http://localhost:8070/lock/test
+
+###
+
+GET http://localhost:8070/lock/flashSale
+
+<> 2020-07-03T064117.200.json
+
+###
+
+GET http://localhost:8070/lock/flashSale
+
+<> 2020-07-03T063505.500.json
+
+###
+
+GET https://localhost:8070/lock/flashSale
+
+###
+
+GET https://localhost:8080/lock/flashSale
+
+###
+
