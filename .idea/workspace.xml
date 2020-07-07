@@ -16,7 +16,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3fdb36-79f8-40ac-b380-94f9ae18e1e2" name="Default Changelist" comment="" />
+    <list default="true" id="db3fdb36-79f8-40ac-b380-94f9ae18e1e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/redis-redission/src/main/java/com/yanyun/redis/contoller/RedisLockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-redission/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-redission/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +67,10 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis\config" />
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.yanyun.redis.utils" />
       <recent name="com.yanyun.redis.service.base" />
@@ -67,21 +78,17 @@
       <recent name="com.yanyun.redis.config" />
       <recent name="com.yanyun.redis" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\resources" />
-      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis\service" />
-      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\test\java\com\yanyun\redis\dao" />
-      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yanyun.redis.contoller" />
       <recent name="com.yanyun.redis.controller" />
       <recent name="com.yanyun.redis.model" />
       <recent name="com.yanyun.redis.model.converter" />
       <recent name="com.yanyun.redis.service" />
-      <recent name="com.yanyun.redis.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis\config" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\resources" />
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis\service" />
+      <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\test\java\com\yanyun\redis\dao" />
       <recent name="C:\Users\cloume\Desktop\RecentProject\MyRedis\redis-like\src\main\java\com\yanyun\redis" />
     </key>
   </component>
@@ -112,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests#4">
+  <component name="RunManager" selected="Spring Boot.SpringbootRedisApplication (1)">
     <configuration name="generated-requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -171,10 +178,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringbootRedisApplication (1)" />
         <item itemvalue="HTTP Request.generated-requests#4" />
         <item itemvalue="HTTP Request.generated-requests#5" />
         <item itemvalue="HTTP Request.generated-requests#3" />
-        <item itemvalue="Spring Boot.SpringbootRedisApplication (1)" />
         <item itemvalue="Spring Boot.RedisSingle" />
       </list>
     </recent_temporary>
@@ -201,6 +208,7 @@
       <workItem from="1593567519505" duration="1374000" />
       <workItem from="1593599326510" duration="4285000" />
       <workItem from="1593771592956" duration="3482000" />
+      <workItem from="1594121518133" duration="3109000" />
     </task>
     <task id="LOCAL-00002" summary="增加分布式锁模块">
       <created>1593756332743</created>
@@ -301,46 +309,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="452" y="118" key="Github.UntrackedFilesDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593516678111" />
-    <state width="1493" height="201" key="GridCell.Tab.0.bottom" timestamp="1593775271243">
+    <state width="1493" height="201" key="GridCell.Tab.0.bottom" timestamp="1594123699997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1433" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1593604902353" />
-    <state width="1493" height="201" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593775271243" />
-    <state width="1493" height="201" key="GridCell.Tab.0.center" timestamp="1593775271243">
+    <state width="1493" height="201" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594123699997" />
+    <state width="1493" height="201" key="GridCell.Tab.0.center" timestamp="1594123699996">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1433" height="178" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1593604902352" />
-    <state width="1493" height="201" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593775271243" />
-    <state width="1493" height="201" key="GridCell.Tab.0.left" timestamp="1593775271243">
+    <state width="1493" height="201" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594123699996" />
+    <state width="1493" height="201" key="GridCell.Tab.0.left" timestamp="1594123699996">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1433" height="178" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1593604902352" />
-    <state width="1493" height="201" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593775271243" />
-    <state width="1493" height="201" key="GridCell.Tab.0.right" timestamp="1593775271243">
+    <state width="1493" height="201" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594123699996" />
+    <state width="1493" height="201" key="GridCell.Tab.0.right" timestamp="1594123699996">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1433" height="178" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1593604902353" />
-    <state width="1493" height="201" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593775271243" />
-    <state width="1493" height="201" key="GridCell.Tab.1.bottom" timestamp="1593775271243">
+    <state width="1493" height="201" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594123699996" />
+    <state width="1493" height="212" key="GridCell.Tab.1.bottom" timestamp="1594123699738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1433" height="178" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1593604902151" />
-    <state width="1493" height="201" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593775271243" />
-    <state width="1493" height="201" key="GridCell.Tab.1.center" timestamp="1593775271243">
+    <state width="1493" height="212" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594123699738" />
+    <state width="1493" height="212" key="GridCell.Tab.1.center" timestamp="1594123699738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1433" height="178" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1593604902150" />
-    <state width="1493" height="201" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593775271243" />
-    <state width="1493" height="201" key="GridCell.Tab.1.left" timestamp="1593775271243">
+    <state width="1493" height="212" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594123699738" />
+    <state width="1493" height="212" key="GridCell.Tab.1.left" timestamp="1594123699738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1433" height="178" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1593604902150" />
-    <state width="1493" height="201" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593775271243" />
-    <state width="1493" height="201" key="GridCell.Tab.1.right" timestamp="1593775271243">
+    <state width="1493" height="212" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594123699738" />
+    <state width="1493" height="212" key="GridCell.Tab.1.right" timestamp="1594123699738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1433" height="178" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1593604902150" />
-    <state width="1493" height="201" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593775271243" />
+    <state width="1493" height="212" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594123699738" />
     <state width="1493" height="201" key="GridCell.Tab.2.bottom" timestamp="1593775271243">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
