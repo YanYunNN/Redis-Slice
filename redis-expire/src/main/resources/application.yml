@@ -1,0 +1,5 @@
+server:
+  port: 9001
+spring:
+  redis:
+    password: 123456
