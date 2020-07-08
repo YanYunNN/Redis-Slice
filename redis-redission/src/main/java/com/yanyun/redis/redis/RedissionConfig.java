@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Redission配置类
- * @author qp
+ * @author yanyun
  */
 @Slf4j
 @Configuration
@@ -25,9 +25,7 @@ public class RedissionConfig {
 
         Config config = new Config();
         String url = "redis://" + redisProperties.getHost() + ":" + redisProperties.getPort();
-        config.useSingleServer().setAddress(url)
-                .setPassword(redisProperties.getPassword())
-                .setDatabase(redisProperties.getDatabase());
+        config.useSingleServer().setAddress(url).setPassword(redisProperties.getPassword()).setDatabase(redisProperties.getDatabase());
 
         try {
             redissonClient = Redisson.create(config);

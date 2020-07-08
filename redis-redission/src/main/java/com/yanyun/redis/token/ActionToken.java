@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 生成token和删除token
+ * @放重复（幂等）策略： 将token放到redis中，如果token存在表示第一次提交，然后删除token，这个时候如果第二个请求来了，redis不存在token，则为重复提交
  */
 @Slf4j
 @Component

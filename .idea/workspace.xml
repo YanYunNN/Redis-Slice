@@ -17,17 +17,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db3fdb36-79f8-40ac-b380-94f9ae18e1e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/redis-redission/src/main/java/com/yanyun/redis/contoller/RedisLockController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-redission/src/main/java/com/yanyun/redis/newLock/RedisLock1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-redission/src/main/java/com/yanyun/redis/newLock/RedissonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-redission/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-redission/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-redission/src/main/java/com/yanyun/redis/contoller/RedisLockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-redission/src/main/java/com/yanyun/redis/newLock/RedisLockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-redission/src/main/java/com/yanyun/redis/redis/RedissionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-redission/src/main/java/com/yanyun/redis/redis/RedissionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-redission/src/main/java/com/yanyun/redis/token/ActionToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-redission/src/main/java/com/yanyun/redis/token/ActionToken.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -208,7 +215,7 @@
       <workItem from="1593567519505" duration="1374000" />
       <workItem from="1593599326510" duration="4285000" />
       <workItem from="1593771592956" duration="3482000" />
-      <workItem from="1594121518133" duration="3109000" />
+      <workItem from="1594121518133" duration="6243000" />
     </task>
     <task id="LOCAL-00002" summary="增加分布式锁模块">
       <created>1593756332743</created>
@@ -224,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593774867901</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加stringTemplate分布式锁">
+      <created>1594126134427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594126134427</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +276,8 @@
     </ignored-roots>
     <MESSAGE value="update" />
     <MESSAGE value="增加分布式锁模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加分布式锁模块" />
+    <MESSAGE value="增加stringTemplate分布式锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加stringTemplate分布式锁" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1593756069641">
@@ -289,10 +304,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593521128422" />
-    <state x="371" y="0" key="CommitChangelistDialog2" timestamp="1593774866755">
+    <state x="371" y="0" key="CommitChangelistDialog2" timestamp="1594126132828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="371" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593774866755" />
+    <state x="371" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594126132827" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1593774226102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -369,10 +384,10 @@
     </state>
     <state width="1433" height="178" key="GridCell.Tab.2.right/0.0.1536.824/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1593604902151" />
     <state width="1493" height="201" key="GridCell.Tab.2.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593775271243" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1593519401901">
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1594127125786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593519401901" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594127125786" />
     <state x="474" y="118" key="NewModule_or_Project.wizard" timestamp="1593517782561">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -389,10 +404,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="591" y="190" key="chooseDestDirectoryDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593520003590" />
-    <state x="470" y="152" width="596" height="520" key="find.popup" timestamp="1593774670034">
+    <state x="470" y="152" width="596" height="520" key="find.popup" timestamp="1594128103496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="152" width="596" height="520" key="find.popup/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1593774670034" />
+    <state x="470" y="152" width="596" height="520" key="find.popup/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1594128103496" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1593774664152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
