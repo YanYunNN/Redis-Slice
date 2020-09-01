@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/redis-like/pom.xml" />
         <option value="$PROJECT_DIR$/redis-redission/pom.xml" />
         <option value="$PROJECT_DIR$/redis-expire/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-redpacket/pom.xml" />
       </list>
     </option>
   </component>

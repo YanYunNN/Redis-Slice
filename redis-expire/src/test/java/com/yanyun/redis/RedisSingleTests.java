@@ -3,6 +3,7 @@ package com.yanyun.redis;
 import com.alibaba.fastjson.JSON;
 import com.yanyun.redis.entity.User;
 import com.yanyun.redis.service.RedisService;
+import com.yanyun.redis.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
