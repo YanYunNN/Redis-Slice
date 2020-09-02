@@ -24,19 +24,21 @@ public class BloomFilterService {
     private SysUserMapper sysUserMapper;
     //布隆过滤器
     private BloomFilter<Integer> bf;
+
     /**
      * PostConstruct：程序启动时加载此方法
      */
     @PostConstruct
-    public void initBloomFilter(){
+    public void initBloomFilter() {
         List<SysUser> sysUsers = sysUserMapper.allUserInfo();
-        if (CollectionUtils.isEmpty(sysUsers)){
+        if (CollectionUtils.isEmpty(sysUsers)) {
             return;
         }
         //初始化布隆过滤器
-        bf=BloomFilter.create(Funnels.integerFunnel(),sysUsers.size());
-        for (SysUser sysUser:sysUsers){
+        bf = BloomFilter.create(Funnels.integerFunnel(), sysUsers.size(), 0.1);
+        for (SysUser sysUser : sysUsers) {
             bf.put(sysUser.getId());
+
         }
     }
 
@@ -45,7 +47,7 @@ public class BloomFilterService {
      * @param id
      * @return
      */
-    public boolean userIdExists(int id){
+    public boolean userIdExists(int id) {
         return bf.mightContain(id);
     }
 }

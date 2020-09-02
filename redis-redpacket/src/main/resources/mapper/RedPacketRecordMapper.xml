@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yanyun.redis.com.yanyun.redis.mapper.RedPacketRecordMapper">
+<mapper namespace="com.yanyun.redis.mapper.RedPacketRecordMapper">
     <insert id="insert" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
          INSERT INTO red_packet_record (amount, nick_name, img_url, uid, red_packet_id
             , create_time, update_time)

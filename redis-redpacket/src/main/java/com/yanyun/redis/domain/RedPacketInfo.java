@@ -19,7 +19,7 @@ public class RedPacketInfo {
      */
     private Long redPacketId;
     /**
-     * 红包总个数
+     * 红包总数
      */
     private Integer totalAmount;
     /**

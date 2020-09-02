@@ -111,7 +111,7 @@ public class RedPacketInfoController {
     private void updateRedPacketInDB(int uid,Long redPacketId,int amount){
         RedPacketRecord redPacketRecord=new RedPacketRecord();
         redPacketRecord.setUid(uid);
-        redPacketRecord.setNickName("陈彦斌");
+        redPacketRecord.setNickName("redis");
         redPacketRecord.setImgUrl("https://images.cnblogs.com/cnblogs_com/chenyanbin/1560326/o_qianxun.jpg");
         redPacketRecord.setRedPacketId(redPacketId);
         redPacketRecord.setAmount(amount);
