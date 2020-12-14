@@ -4,6 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.yanyun.redis.mapper.SysUserMapper">
     <select id="allUserInfo" resultType="com.yanyun.redis.domain.SysUser">
-    select * from sys_user
-</select>
+        select * from sys_user
+    </select>
 </mapper>

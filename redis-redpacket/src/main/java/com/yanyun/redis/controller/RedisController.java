@@ -16,9 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class RedisController {
     @Autowired
     private RedisService redisService;
+
     @GetMapping("redisTest")
-    public Object redisTest(String key,String value){
-        redisService.set(key,value);
+    public Object redisTest(String key, String value) {
+        redisService.set(key, value);
         return redisService.get(key);
     }
 }

@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface RedPacketInfoMapper {
     List<RedPacketInfo> ListRedPacketInfo();
+
     void insert(RedPacketInfo redPacketInfo);
 }

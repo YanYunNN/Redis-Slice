@@ -38,7 +38,6 @@ public class RedPacketInfoController {
 
     /**
      * 发红包
-     *
      * @param req 用户信息
      * @return
      */
@@ -65,13 +64,12 @@ public class RedPacketInfoController {
 
     /**
      * 抢红包
-     *
      * @param req
      * @return
      */
     @PostMapping("getPacket")
     public JsonData getRedPacket(@RequestBody GetPacketReq req) {
-        Integer randomAmount=0;
+        Integer randomAmount = 0;
         String redPacketName = req.getRedPacketId() + TOTAL_NUM;
         //红包总金额
         String totalAmountName = req.getRedPacketId() + TOTAL_AMOUNT;
@@ -82,18 +80,18 @@ public class RedPacketInfoController {
                 redisService.decr(redPacketName);
 
                 //拿到红包总金额
-                if (redisService.exists(totalAmountName)){
-                    Integer totalAmount=Integer.valueOf(redisService.get(totalAmountName)+"");
+                if (redisService.exists(totalAmountName)) {
+                    Integer totalAmount = Integer.valueOf(redisService.get(totalAmountName) + "");
                     //红包最大金额
-                    Integer maxMoney=totalAmount/Integer.valueOf(num)*2;
-                    Random random=new Random();
+                    Integer maxMoney = totalAmount / Integer.valueOf(num) * 2;
+                    Random random = new Random();
                     //随机抢到的红包
-                    randomAmount =num==1?totalAmount:random.nextInt(maxMoney);
+                    randomAmount = num == 1 ? totalAmount : random.nextInt(maxMoney);
                     //redis红包金额减指定值
-                    redisService.decr(totalAmountName,randomAmount);
+                    redisService.decr(totalAmountName, randomAmount);
                 }
-                updateRedPacketInDB(req.getUid(),req.getRedPacketId(),randomAmount);
-                return JsonData.buildSuccess("抢到红包:"+randomAmount);
+                updateRedPacketInDB(req.getUid(), req.getRedPacketId(), randomAmount);
+                return JsonData.buildSuccess("抢到红包:" + randomAmount);
             } else {
                 return JsonData.buildError("红包被抢完啦");
             }
@@ -104,12 +102,12 @@ public class RedPacketInfoController {
 
     /**
      * 更新用户抢到红包记录
-     * @param uid 用户id
+     * @param uid         用户id
      * @param redPacketId 红包id
-     * @param amount 金额
+     * @param amount      金额
      */
-    private void updateRedPacketInDB(int uid,Long redPacketId,int amount){
-        RedPacketRecord redPacketRecord=new RedPacketRecord();
+    private void updateRedPacketInDB(int uid, Long redPacketId, int amount) {
+        RedPacketRecord redPacketRecord = new RedPacketRecord();
         redPacketRecord.setUid(uid);
         redPacketRecord.setNickName("redis");
         redPacketRecord.setImgUrl("https://images.cnblogs.com/cnblogs_com/chenyanbin/1560326/o_qianxun.jpg");

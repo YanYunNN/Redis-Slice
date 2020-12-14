@@ -4,12 +4,10 @@ import java.util.List;
 
 /**
  * redis服务接口
-
  */
 public interface RedisService {
     /**
      * 用户点赞某篇文章
-     *
      * @param likedUserId 被点赞用户ID
      * @param likedPostId 点赞用户
      * @param articleId   文章ID
@@ -18,7 +16,6 @@ public interface RedisService {
 
     /**
      * 取消点赞
-     *
      * @param likedUserId 被点赞用户ID
      * @param likedPostId 点赞用户
      * @param articleId   文章ID
@@ -27,7 +24,6 @@ public interface RedisService {
 
     /**
      * 统计某篇文章总点赞数
-     *
      * @param articleId
      * @return
      */
@@ -35,7 +31,6 @@ public interface RedisService {
 
     /**
      * 统计用户总的文章点赞数
-     *
      * @param likedUserId
      * @return
      */
@@ -43,7 +38,6 @@ public interface RedisService {
 
     /**
      * 获取用户点赞的文章
-     *
      * @param likedPostId 点赞用户ID
      * @return
      */

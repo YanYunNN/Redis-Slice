@@ -59,7 +59,7 @@ public class JsonData {
     /**
      * 失败，返回信息和状态码
      * @param code 状态码
-     * @param msg 返回信息
+     * @param msg  返回信息
      * @return
      */
     public static JsonData buildError(Integer code, String msg) {

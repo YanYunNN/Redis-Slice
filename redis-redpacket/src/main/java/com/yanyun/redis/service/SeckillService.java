@@ -41,7 +41,7 @@ public class SeckillService {
                     return "还未开始";
                 } else {
                     //代表已经开始秒杀
-                    redisService.set(secStartPrefix + skuId, 1+"");
+                    redisService.set(secStartPrefix + skuId, 1 + "");
                 }
             } else {
                 return "系统异常";
@@ -85,7 +85,6 @@ public class SeckillService {
 
     /**
      * 获取当前时间戳
-     *
      * @return
      */
     private long getNow() {

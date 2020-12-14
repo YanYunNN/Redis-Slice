@@ -7,7 +7,6 @@ import java.util.Set;
 
 /**
  * 序列化与反序列化工具类
-
  */
 public class FastjsonUtil {
     /**

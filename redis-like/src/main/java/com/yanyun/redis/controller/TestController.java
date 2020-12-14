@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/hello")
     public Object hello() {
-        new Thread(() -> { throw new IllegalArgumentException(); }).start();
+        new Thread(() -> {
+            throw new IllegalArgumentException();
+        }).start();
         return "hello world";
     }
 

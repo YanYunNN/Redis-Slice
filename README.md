@@ -1,4 +1,9 @@
 # Redis-Cluster
+## Spring-boot-redis
+`Redis缓存使用姿势盘点`
+https://www.geekdigging.com/2019/09/24/2171701522/
+
+
 ## Springboot
 * 1.整合Redis做缓存
 * 2.开启Cluster支持

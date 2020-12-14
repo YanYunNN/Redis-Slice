@@ -17,6 +17,7 @@ import org.springframework.stereotype.Service;
 public class RedPacketRecordServiceImpl implements RedPacketRecordService {
     @Autowired
     private RedPacketRecordMapper redPacketRecordMapper;
+
     @Override
     public void insert(RedPacketRecord redPacketRecord) {
         redPacketRecordMapper.insert(redPacketRecord);

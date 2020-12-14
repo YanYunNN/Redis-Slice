@@ -90,7 +90,7 @@ public class RedisService {
      * @param timeout timeout
      * @return
      */
-    public boolean setTimeOut(String key, long timeout,TimeUnit timeUnit) {
+    public boolean setTimeOut(String key, long timeout, TimeUnit timeUnit) {
         return stringRedisTemplate.expire(key, timeout, timeUnit);
     }
 

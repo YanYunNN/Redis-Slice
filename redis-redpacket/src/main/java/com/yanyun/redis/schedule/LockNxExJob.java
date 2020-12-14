@@ -119,7 +119,7 @@ public class LockNxExJob {
         try {
             //redistemplate setnx操作
             //nxRet = luaExpress(lock,getHostIp());
-            System.out.println("hostIp1="+getHostIp());
+            System.out.println("hostIp1=" + getHostIp());
             nxRet = setLock(lock, getHostIp(), 8);
             Object lockValue = redisService.get(lock);
             System.out.println(lockValue);
@@ -142,16 +142,15 @@ public class LockNxExJob {
                 System.out.println(" setnx and setex 释放锁成功");
                 //redisService.remove(lock);
                 //使用lua脚本释放锁
-                System.out.println("hostIp2="+getHostIp());
+                System.out.println("hostIp2=" + getHostIp());
                 Boolean result = releaseLock(lock, getHostIp());
-                System.out.println("状态:"+result);
+                System.out.println("状态:" + result);
             }
         }
     }
 
     /**
      * 释放锁操作
-     *
      * @param key   键
      * @param value 值
      * @return
@@ -170,7 +169,6 @@ public class LockNxExJob {
 
     /**
      * setnx和setex连用
-     *
      * @param key    键
      * @param value  值
      * @param expire 超时时间
@@ -194,7 +192,6 @@ public class LockNxExJob {
 
     /**
      * 获取lua结果
-     *
      * @param key   键
      * @param value 值
      * @return
@@ -216,7 +213,6 @@ public class LockNxExJob {
 
     /**
      * 获取本机内网IP地址方法
-     *
      * @return
      */
     private static String getHostIp() {

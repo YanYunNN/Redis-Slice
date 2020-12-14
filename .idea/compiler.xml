@@ -7,13 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="redis-expire" />
+        <module name="springboot2.x_redis" />
+        <module name="redis-redission" />
+        <module name="redis-single" />
+        <module name="spring-boot-redis" />
+        <module name="redis-cluster" />
         <module name="redis-like" />
         <module name="redis-redpacket" />
-        <module name="redis-single" />
-        <module name="redis-cluster" />
-        <module name="springboot2.x_redis" />
-        <module name="redis-expire" />
-        <module name="redis-redission" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="redis-redission" target="1.8" />
       <module name="redis-redpacket" target="1.8" />
       <module name="redis-single" target="1.8" />
+      <module name="spring-boot-redis" target="1.8" />
       <module name="springboot2.x_redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -35,6 +37,7 @@
       <module name="redis-redission" options="-parameters" />
       <module name="redis-redpacket" options="-parameters" />
       <module name="redis-single" options="-parameters" />
+      <module name="spring-boot-redis" options="-parameters" />
       <module name="springboot2.x_redis" options="-parameters" />
     </option>
   </component>

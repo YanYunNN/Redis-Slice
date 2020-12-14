@@ -22,12 +22,12 @@ public class SeckillController {
 
     /**
      * 秒杀-抢库存
-     * @param uid 用户标识符id
+     * @param uid   用户标识符id
      * @param skuId 库存id
      * @return
      */
     @GetMapping("seckill")
-    public String seckill(@Param("uid") int uid,@Param("skuId") int skuId) {
-        return seckillService.seckill(uid,skuId);
+    public String seckill(@Param("uid") int uid, @Param("skuId") int skuId) {
+        return seckillService.seckill(uid, skuId);
     }
 }

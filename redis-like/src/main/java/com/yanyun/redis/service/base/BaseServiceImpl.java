@@ -12,7 +12,6 @@ import java.util.List;
 
 /**
  * @Description: 基本业务实现类
-
  */
 public class BaseServiceImpl<M extends BaseMapper<T>, T> extends ServiceImpl<M, T> implements BaseService<T> {
 

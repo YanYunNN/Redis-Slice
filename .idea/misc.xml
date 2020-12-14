@@ -6,13 +6,13 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/redis-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/redis-single/pom.xml" />
         <option value="$PROJECT_DIR$/Redis-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/redis-like/pom.xml" />
         <option value="$PROJECT_DIR$/redis-redission/pom.xml" />
         <option value="$PROJECT_DIR$/redis-expire/pom.xml" />
         <option value="$PROJECT_DIR$/redis-redpacket/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/pom.xml" />
       </list>
     </option>
   </component>

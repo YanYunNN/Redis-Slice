@@ -21,8 +21,9 @@ public class BloomFilterController {
     private BloomFilterService bloomFilterService;
     @Autowired
     private RedisService redisService;
+
     @GetMapping("idExists")
-    public boolean ifExists(int id){
+    public boolean ifExists(int id) {
         return bloomFilterService.userIdExists(id);
     }
 
@@ -33,8 +34,8 @@ public class BloomFilterController {
      * @return
      */
     @GetMapping("redisIdExists")
-    public boolean redisIdExists(String name,int id){
-        return redisService.bloomFilterExists(name,id);
+    public boolean redisIdExists(String name, int id) {
+        return redisService.bloomFilterExists(name, id);
     }
 
     /**
@@ -44,7 +45,7 @@ public class BloomFilterController {
      * @return
      */
     @GetMapping("redisAdd")
-    public boolean redisAdd(String name,int id){
-        return redisService.bloomFilterAdd(name,id);
+    public boolean redisAdd(String name, int id) {
+        return redisService.bloomFilterAdd(name, id);
     }
 }

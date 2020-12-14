@@ -4,7 +4,6 @@ import lombok.Data;
 
 /**
  * 自定义异常类
-
  */
 @Data
 public class CustomException extends RuntimeException {
